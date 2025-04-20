@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Account Information</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      background: #fff;
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    .info {
+      margin: 15px 0;
+    }
+    .label {
+      font-weight: bold;
+      color: #555;
+    }
+    .value {
+      margin-left: 10px;
+      color: #000;
+    }
+    .print-btn {
+      display: block;
+      width: 100%;
+      margin: 20px auto 0;
+      padding: 10px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .print-btn:hover {
+      background-color: #0056b3;
+    }
+    @media print {
+      .print-btn {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Account Information</h2>
+    <div class="info"><span class="label">Branch:</span><span class="value">LINK BRANCH MANIHARI</span></div>
+    <div class="info"><span class="label">Branch Code:</span><span class="value">MANIHARI B5:09</span></div>
+    <div class="info"><span class="label">Account Type:</span><span class="value">Savings Bank Account</span></div>
+    <div class="info"><span class="label">Account No:</span><span class="value">100271691881</span></div>
+    <div class="info"><span class="label">Customer Name:</span><span class="value">NUR ALAM</span></div>
+    <div class="info"><span class="label">S/D/W/H/O:</span><span class="value">VAJIR HUSSAIN</span></div>
+    <div class="info"><span class="label">Address:</span><span class="value">AT- CHILHANIYA -PO- DILLI DIWANGANJ, PS -AMDABAD, DIST - KATIHAR, PIN - 854117</span></div>
+    <div class="info"><span class="label">IFSC:</span><span class="value">INDB0000447</span></div>
+    <div class="info"><span class="label">Nominee:</span><span class="value">Yes</span></div>
+    <div class="info"><span class="label">Mobile No:</span><span class="value">8891476365</span></div>
+    <div class="info"><span class="label">Aadhar No:</span><span class="value">8137 7311 9864</span></div>
+    <div class="info"><span class="label">CSP Code:</span><span class="value">I00D8743</span></div>
+    <div class="info"><span class="label">CSP Name:</span><span class="value">MR TELECOM (MD MOKIM)</span></div>
+    <div class="info"><span class="label">CSP Location:</span><span class="value">JHOLA ROSHNA AMDABAD</span></div>
+    <div class="info"><span class="label">Issue Date:</span><span class="value">19/04/2025</span></div>
+
+    <button class="print-btn" onclick="window.print()">🖨️ Print This Page</button>
+  </div>
+</body>
+</html>
